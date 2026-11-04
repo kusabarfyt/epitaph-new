@@ -25,7 +25,7 @@ public final class EpitaphEntities {
         ResourceKey<EntityType<?>> key = ResourceKey.create(Registries.ENTITY_TYPE, MaceEpitaph.id(name));
         return Registry.register(BuiltInRegistries.ENTITY_TYPE, key,
                 EntityType.Builder.<EpitaphEffectEntity>of(EpitaphEffectEntity::new, MobCategory.MISC)
-                        .sized(4.0F, 4.0F)
+                        .sized(30.0F, 64.0F)
                         .noSave()
                         .noSummon()
                         .fireImmune()
