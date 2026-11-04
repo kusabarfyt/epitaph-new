@@ -31,7 +31,6 @@ public class EpitaphEffectEntity extends Marker implements GeoEntity {
             case "epitaph_beam"   -> { this.animationName = "animation.beam.idle";          this.lifetimeTicks = 180; }
             default               -> { this.animationName = "animation.particlethingy.grow"; this.lifetimeTicks = 170; }
         }
-        this.noCulling = true; // the beam is ~50 blocks tall, don't let frustum culling hide it
     }
 
     @Override
