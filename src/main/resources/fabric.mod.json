@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mace_epitaph",
+  "version": "${version}",
+  "name": "Mace Epitaph",
+  "description": "Plays the Dusk's Epitaph death animation when you kill a player with a mace. Client-side only, works on any server.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.maceepitaph.MaceEpitaphClient" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "geckolib": "*"
+  }
+}

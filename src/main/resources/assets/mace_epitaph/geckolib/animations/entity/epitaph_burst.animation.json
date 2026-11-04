@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.particlethingy.grow": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 8,
+			"bones": {
+				"particlethingy": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [30, 30, 30]
+						},
+						"8.0": {
+							"vector": [60, 60, 60]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

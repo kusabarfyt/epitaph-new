@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.beam.idle": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 8.5,
+			"bones": {
+				"beam": {
+					"rotation": {
+						"1.75": {
+							"vector": [0, 0, 50]
+						},
+						"2.25": {
+							"vector": [0, 45, 50]
+						},
+						"3.75": {
+							"vector": [0, 370, 50]
+						},
+						"5.25": {
+							"vector": [0, 740, 50]
+						},
+						"6.75": {
+							"vector": [0, 1110, 50]
+						},
+						"7.75": {
+							"vector": [0, 1364, 50]
+						}
+					},
+					"position": {
+						"1.75": {
+							"vector": [800, 800, 0]
+						},
+						"2.25": {
+							"vector": [1.55859, -6.52463, 0]
+						}
+					},
+					"scale": {
+						"1.75": {
+							"vector": [1, 0, 1]
+						},
+						"2.25": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

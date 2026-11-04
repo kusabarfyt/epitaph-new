@@ -1,0 +1,14 @@
+{
+  "lesserdivinitybeam": {
+    "subtitle": "subtitles.lesserdivinitybeam",
+    "sounds": [
+      { "name": "mace_epitaph:beam", "stream": false }
+    ]
+  },
+  "dusksepitaphexplosion": {
+    "subtitle": "subtitles.dusksepitaphexplosion",
+    "sounds": [
+      { "name": "mace_epitaph:explosion", "stream": false }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.particle_thingy",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "particlethingy",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-2, -8, -6],
+							"size": [0, 16, 16],
+							"pivot": [0, 0, 2],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [3, 2], "uv_size": [0, 16]},
+								"east": {"uv": [18, 22], "uv_size": [22, 20]},
+								"south": {"uv": [19, 2], "uv_size": [0, 16]},
+								"west": {"uv": [0, 0], "uv_size": [64, 64]},
+								"up": {"uv": [3, -14], "uv_size": [0, 16]},
+								"down": {"uv": [3, 2], "uv_size": [0, -16]}
+							}
+						},
+						{
+							"origin": [-2, -10, -8],
+							"size": [0, 16, 16],
+							"pivot": [0, -2, 0],
+							"rotation": [-90, 0, 90],
+							"uv": {
+								"north": {"uv": [3, 2], "uv_size": [0, 16]},
+								"east": {"uv": [0, 0], "uv_size": [64, 64]},
+								"south": {"uv": [19, 2], "uv_size": [0, 16]},
+								"west": {"uv": [0, 0], "uv_size": [64, 64]},
+								"up": {"uv": [3, 18], "uv_size": [0, -16]},
+								"down": {"uv": [3, 16], "uv_size": [0, -16]}
+							}
+						},
+						{
+							"origin": [0, -8, -8],
+							"size": [0, 16, 16],
+							"uv": {
+								"north": {"uv": [3, 2], "uv_size": [0, 16]},
+								"east": {"uv": [18, 22], "uv_size": [22, 20]},
+								"south": {"uv": [19, 2], "uv_size": [0, 16]},
+								"west": {"uv": [0, 0], "uv_size": [64, 64]},
+								"up": {"uv": [3, -14], "uv_size": [0, 16]},
+								"down": {"uv": [3, 2], "uv_size": [0, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
